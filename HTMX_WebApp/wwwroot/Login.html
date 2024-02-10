@@ -7,19 +7,16 @@
     <script src="https://unpkg.com/htmx.org"></script>
 </head>
 <body>
+    <!-- Google sign-in button -->
+    <button id="googleSignIn" onclick="window.location.href='/signin-google';" type="button">Sign in with Google</button>
 
-    <form id="loginForm" hx-post="/Account/Login" hx-target="#loginResult" hx-swap="outerHTML">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-
-        <button type="submit">Login</button>
+    <!-- Other forms or interactive elements on your page can still use HTMX -->
+    <form id="otherForm" hx-post="/some-endpoint" hx-target="#result" hx-swap="outerHTML">
+        <!-- Your form elements here -->
     </form>
 
-    <div id="loginResult">
-        <!-- The login result will be displayed here -->
+    <div id="result">
+        <!-- Results from HTMX requests will be displayed here -->
     </div>
 
 </body>

@@ -12,6 +12,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\accessdenied.html" />
+    <Content Remove="wwwroot\Login.html" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="7.0.15" />
   </ItemGroup>
 

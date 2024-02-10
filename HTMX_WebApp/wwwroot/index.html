@@ -9,5 +9,16 @@
 <body>
     <button hx-get="https://localhost:7245/WeatherForecast" hx-target="#response">Click me!</button>
     <div id="response"></div>
+
+    <!-- Google sign-in button -->
+    <p>this button will do a full page reload!</p>
+    <button id="googleSignIn" onclick="window.location.href='/signin-google';" type="button">Sign in with Google</button>
+
+
+    <button id="checkAuthStatusBtn" hx-get="/check-auth" hx-target="#authStatus">Check Auth Status</button>
+    <div id="authStatus">
+        <!-- Authentication status will be loaded here by HTMX -->
+    </div>
+
 </body>
 </html>

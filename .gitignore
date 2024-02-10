@@ -396,3 +396,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/HTMX_WebApp/wwwroot/Login.html
+/HTMX_WebApp/wwwroot/accessdenied.html

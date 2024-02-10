@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://unpkg.com/htmx.org"></script>
+</head>
+<body>
+
+    <form id="loginForm" hx-post="/Account/Login" hx-target="#loginResult" hx-swap="outerHTML">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <div id="loginResult">
+        <!-- The login result will be displayed here -->
+    </div>
+
+</body>
+</html>

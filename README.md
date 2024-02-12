@@ -4,6 +4,10 @@ Purpose of this project is to display the ease of use of HTMX for forntend
 
 powering HTMX with as many as possible backends that they will do the same tasks
 
+Frontend uses HTMX mainly and some javascript
+Frontend engine is powered by .NET Core 7 WebApp 
+the Frontend html can be used for any other platform 
+
 Backends on the list:
 
 1- .NET 6 Core

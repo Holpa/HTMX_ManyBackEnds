@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTMX Example</title>
     <script src="https://unpkg.com/htmx.org"></script>
+    <script>
+        htmx.config.allowScriptTags = false;
+        htmx.config.allowEval = false;
+    </script>
 </head>
 <body>
     <button hx-get="https://localhost:7245/WeatherForecast" hx-target="#response">Click me!</button>

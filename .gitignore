@@ -403,3 +403,4 @@ FodyWeavers.xsd
 /HTMX_BackEndCore/WeatherForecast.cs
 /e
 /WebApplication1/appsettings.Development.json
+/WebApplication1/Properties/launchSettings.json

@@ -401,3 +401,5 @@ FodyWeavers.xsd
 /HTMX_BackEndCore/Controllers/GoogleAuth.cs
 /HTMX_BackEndCore/Controllers/WeatherForecastController.cs
 /HTMX_BackEndCore/WeatherForecast.cs
+/e
+/WebApplication1/appsettings.Development.json

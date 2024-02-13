@@ -398,3 +398,6 @@ FodyWeavers.xsd
 *.sln.iml
 /HTMX_WebApp/wwwroot/Login.html
 /HTMX_WebApp/wwwroot/accessdenied.html
+/HTMX_BackEndCore/Controllers/GoogleAuth.cs
+/HTMX_BackEndCore/Controllers/WeatherForecastController.cs
+/HTMX_BackEndCore/WeatherForecast.cs

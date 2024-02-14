@@ -11,10 +11,17 @@
     </script>
 </head>
 <body>
-    <button hx-get="https://localhost:7245/WeatherForecast" hx-target="#response">Click me!</button>
+    <button hx-get="https://localhost:7245/WeatherForecast" hx-target="#response">
+    Get Local API End PointClick me!</button>
     <div id="response"></div>
 
 
+    <!-- This button uses HTMX to make a GET request to the API -->
+    <button hx-get="https://jsonplaceholder.typicode.com/posts/1" hx-target="#api-response">
+        Get Public API End Point
+    </button>
 
+    <!-- This is where the response will be displayed -->
+    <div id="api-response"></div>
 </body>
 </html>

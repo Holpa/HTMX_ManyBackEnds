@@ -6,7 +6,8 @@ powering HTMX with as many as possible backends that they will do the same tasks
 
 Frontend uses HTMX mainly and some javascript
 Frontend engine is powered by .NET Core 7 WebApp 
-the Frontend html can be used for any other platform 
+the Frontend html can be used for any other platform, infact all you need is .HTML and browser. using core7
+Webapp is just for personal experience.
 
 Backends on the list:
 
@@ -16,3 +17,9 @@ Backends on the list:
 4- Go
 5- PHP
 6- Node.js
+
+Requirements:
+
+Front end:
+  1- html
+  2- web browser

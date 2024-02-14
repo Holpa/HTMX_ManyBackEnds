@@ -17,3 +17,9 @@ Backends on the list:
 4- Go
 5- PHP
 6- Node.js
+
+Requirements:
+
+Front end:
+  1- html
+  2- web browser

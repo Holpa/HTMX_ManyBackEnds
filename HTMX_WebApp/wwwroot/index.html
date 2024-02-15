@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTMX Example</title>
+    <link rel="stylesheet" href="/css/GeneralLayout.css">
     <script src="https://unpkg.com/htmx.org"></script>
     <script>
         htmx.config.allowScriptTags = false;
@@ -12,7 +13,8 @@
 </head>
 <body>
     <button hx-get="https://localhost:7245/WeatherForecast" hx-target="#response">
-    Get Local API End PointClick me!</button>
+        Get Local API End PointClick me!
+    </button>
     <div id="response"></div>
 
 

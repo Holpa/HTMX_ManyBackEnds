@@ -32,3 +32,8 @@ img, picture, svg, video {
 input, textarea, button, select {
     font: inherit;
 }
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
